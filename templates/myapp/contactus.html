@@ -1,0 +1,85 @@
+<html>
+<title>Contact Us</title>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Pacifico" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .container{
+            position:relative;
+            text-align:center;
+            color:black;
+        }
+        img{
+            height:130%;
+            width:100%;
+        }
+        
+        h4{
+            font-family:;
+            text-align: center;
+            font-size: 25px;
+        }
+        h1{
+            
+            font-size: 40px;
+            text-align: center;
+        }
+        p{
+           
+            font-size:25px;
+        }
+        .top-left{
+            position:absolute;
+            top:8px;
+            left:16px;
+            
+        }
+        .fa{
+            padding:20px;
+            font-size:30px;
+            width:80px;
+            text-align:center;
+            text-decoration: none;
+            margin:5px 2px;
+        }
+        
+         .fa:hover{
+            opacity:0.7;
+            
+        }
+
+        </style>
+    </head>
+    <body>
+        {% include "partials/_navbar.html" %}
+        <div class="container">
+        
+        <h1>Contact Us!</h1>
+        <p>Mob:1234567890</p>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Let's Talk.....</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        <h4>For more follow us on</h4><br><br>
+        <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-google"></a>&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;&nbsp;
+        </div></div>
+        <div class="alert alert-primary" role="alert">
+             
+        </div>
+    </body>
+
+</html>
